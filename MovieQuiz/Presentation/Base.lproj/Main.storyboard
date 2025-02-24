@@ -77,6 +77,9 @@
                                                         <integer key="value" value="15"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="noButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ogg-zK-rio"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypl-gy-mgT" userLabel="Да button">
                                                 <rect key="frame" x="197" y="0.0" width="177" height="60"/>
@@ -90,6 +93,9 @@
                                                         <integer key="value" value="15"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="yesButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PBt-PB-yEG"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -105,6 +111,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MIs-7r-ai7" secondAttribute="trailing" constant="20" id="e1E-mv-yN9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="counterLabel" destination="1He-sc-7yV" id="RZg-LD-gNI"/>
+                        <outlet property="imageView" destination="Pgg-aN-aHF" id="O9q-r6-Arr"/>
+                        <outlet property="textLabel" destination="IpL-Dq-LvM" id="v4y-fB-ObW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
