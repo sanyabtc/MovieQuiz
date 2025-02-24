@@ -39,11 +39,22 @@ final class MovieQuizViewController: UIViewController {
         let buttonText: String
     }
     
+    struct QuizStepViewModel {
+        let image: UIImage
+        let question: String
+        let questionNumber: String
+    }
+    
     struct QuizQuestion {
         let image: String
         let text: String
         let correctAnswer: Bool
     }
+    
+    
+    private var currentQuestionIndex = 0
+    
+    private var correctAnswers = 0
 
     private let questions: [QuizQuestion] = [
             QuizQuestion(
@@ -88,16 +99,6 @@ final class MovieQuizViewController: UIViewController {
                 correctAnswer: false)
         ]
 
-    private var currentQuestionIndex = 0
-    
-    private var correctAnswers = 0
-    
-    struct QuizStepViewModel {
-        let image: UIImage
-        let question: String
-        let questionNumber: String
-    }
-    
     private func convert(model: QuizQuestion) -> QuizStepViewModel {
         let questionStep = QuizStepViewModel(
             image: UIImage(named: model.image) ?? UIImage(),
