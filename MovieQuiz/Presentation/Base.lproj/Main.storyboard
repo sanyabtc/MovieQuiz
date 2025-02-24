@@ -24,15 +24,15 @@
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="23.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Вопрос:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0r-Es-icx" userLabel="Вопрос: label">
-                                                <rect key="frame" x="0.0" y="0.0" width="332.5" height="23.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="336.5" height="23.5"/>
                                                 <color key="backgroundColor" name="YP BLack"/>
                                                 <color key="tintColor" name="YP White"/>
                                                 <fontDescription key="fontDescription" name="YSDisplay-Bold" family="YS Display" pointSize="20"/>
                                                 <color key="textColor" name="YP White"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1He-sc-7yV" userLabel="0/10 index label">
-                                                <rect key="frame" x="332.5" y="0.0" width="41.5" height="23.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1He-sc-7yV" userLabel="0/10 index label">
+                                                <rect key="frame" x="336.5" y="0.0" width="37.5" height="23.5"/>
                                                 <color key="backgroundColor" name="YP BLack"/>
                                                 <color key="tintColor" name="YP White"/>
                                                 <fontDescription key="fontDescription" name="YSDisplay-Bold" family="YS Display" pointSize="20"/>
@@ -49,7 +49,7 @@
                                             <constraint firstAttribute="width" secondItem="Pgg-aN-aHF" secondAttribute="height" multiplier="2:3" id="jqm-nv-mu2"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Рейтинг этого фильма больше чем 5?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpL-Dq-LvM" userLabel="Рейтинг фильма больше чем label">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Рейтинг этого фильма больше чем 6?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpL-Dq-LvM" userLabel="Рейтинг фильма больше чем label">
                                         <rect key="frame" x="0.0" y="624.5" width="374" height="99.5"/>
                                         <color key="backgroundColor" name="YP BLack"/>
                                         <color key="tintColor" name="YP White"/>
@@ -112,7 +112,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="counterLabel" destination="1He-sc-7yV" id="RZg-LD-gNI"/>
+                        <outlet property="counterLabel" destination="1He-sc-7yV" id="P4R-p8-MNC"/>
                         <outlet property="imageView" destination="Pgg-aN-aHF" id="O9q-r6-Arr"/>
                         <outlet property="textLabel" destination="IpL-Dq-LvM" id="v4y-fB-ObW"/>
                     </connections>
