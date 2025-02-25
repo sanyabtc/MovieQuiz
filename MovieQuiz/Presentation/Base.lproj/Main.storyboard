@@ -48,6 +48,11 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Pgg-aN-aHF" secondAttribute="height" multiplier="2:3" id="jqm-nv-mu2"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Рейтинг этого фильма больше чем 6?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpL-Dq-LvM" userLabel="Рейтинг фильма больше чем label">
                                         <rect key="frame" x="0.0" y="624.5" width="374" height="99.5"/>
@@ -114,7 +119,9 @@
                     <connections>
                         <outlet property="counterLabel" destination="1He-sc-7yV" id="P4R-p8-MNC"/>
                         <outlet property="imageView" destination="Pgg-aN-aHF" id="O9q-r6-Arr"/>
+                        <outlet property="noButton" destination="l3h-oc-1Kh" id="RXg-Rr-3on"/>
                         <outlet property="textLabel" destination="IpL-Dq-LvM" id="v4y-fB-ObW"/>
+                        <outlet property="yesButton" destination="ypl-gy-mgT" id="SM2-xO-liU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
